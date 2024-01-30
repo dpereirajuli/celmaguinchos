@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de vendas de carros de última geração">
+    <title>Celma Guinchos e Plataformas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <input type="radio" name="nav" id="showNav">
+        <input type="radio" name="nav" id="closeNav" checked>
+
+        <label for="showNav" class="navBar"><i class="fa-solid fa-bars"></i></label>
+        <label for="closeNav" class="navX"><i class="fa-solid fa-xmark"></i></label>
+
+        <div class="logo">
+            <a href="index.html"><img src="/img/logo_extendido.png" alt=""></a>
+        </div>
+
+        <nav class="header-nav">
+            <a href="index.html" class="homee">Inicio</a>
+            <a href="caminhoes.html" class="vehicless">Caminhões</a>
+            <a href="plataformas.html" class="servicess">Plataformas</a>
+            <a href="#footer" class="contactt">Contato</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home" id="home">
+            <h1>Celma Guinchos</h1>
+            <picture>
+                <source media="(max-width: 520px)" srcset="img/home-img-mobile.png" type="image/jpg" />
+                <source media="(max-width: 800px)" srcset="img/home-img-tablet.png" type="image/jpg" />
+                <img src="img/home-img-desktop.png" alt="Três carros juntos">
+            </picture>
+            <a href="caminhoes.html">Ver Caminhões</a>
+        </section>
+
+        <section class="achievements">
+            <div class="achievement-item">
+                <div><i class="fa-solid fa-house"></i></div>
+                <p class="yellow">30+</p>
+                <p>Estados</p>
+            </div>
+            <div class="achievement-item">
+                <div><i class="fa-solid fa-users"></i></div>
+                <p class="yellow">320+</p>
+                <p>Clientes</p>
+            </div>
+
+            <div class="achievement-item">
+                <div><i class="fa-solid fa-car"></i></div>
+                <p class="yellow">1500+</p>
+                <p>Vendas</p>
+            </div>
+        </section>
+
+        <section class="vehicles" id="vehicles">
+            <h2>Promoções <span class="yellow">do mês</span></h2>
+
+            <div class="swiper vehicle-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide ">
+                        <img src="img/1.png" alt="carro vermelho" width="656" height="360" loading="lazy">
+                        <h3>New model</h3>
+                        <p>Price: <span class="yellow">$62,000/-</span></p>
+                        <div class="vehicle-info">
+                            <p>new</p>
+                            <p>2023</p>
+                            <p>Automatic</p>
+                            <p>Petrol</p>
+                            <p>183mph</p>
+                        </div>
+                        <button>Check out</button>
+                    </div>
+
+                    <div class="swiper-slide ">
+                        <img src="img/2.png" alt="carro cinza" width="656" height="360" loading="lazy">
+                        <h3>New model</h3>
+                        <p>Price: <span class="yellow">$62,000/-</span></p>
+                        <div class="vehicle-info">
+                            <p>new</p>
+                            <p>2023</p>
+                            <p>Automatic</p>
+                            <p>Petrol</p>
+                            <p>183mph</p>
+                        </div>
+                        <button>Check out</button>
+                    </div>
+
+                    <div class="swiper-slide ">
+                        <img src="img/3.png" alt="carro branco" width="656" height="360" loading="lazy">
+                        <h3>New model</h3>
+                        <p>Price: <span class="yellow">$62,000/-</span></p>
+                        <div class="vehicle-info">
+                            <p>new</p>
+                            <p>2023</p>
+                            <p>Automatic</p>
+                            <p>Petrol</p>
+                            <p>183mph</p>
+                        </div>
+                        <button>Check out</button>
+                    </div>
+
+                    <div class="swiper-slide ">
+                        <img src="img/1.png" alt="carro amarelo" width="656" height="360" loading="lazy">
+                        <h3>New model</h3>
+                        <p>Price: <span class="yellow">$62,000/-</span></p>
+                        <div class="vehicle-info">
+                            <p>new</p>
+                            <p>2023</p>
+                            <p>Automatic</p>
+                            <p>Petrol</p>
+                            <p>183mph</p>
+                        </div>
+                        <button>Check out</button>
+                    </div>
+
+                    <div class="swiper-slide ">
+                        <img src="img/2.png" alt="carro preto" width="656" height="360" loading="lazy">
+                        <h3>New model</h3>
+                        <p>Price: <span class="yellow">$62,000/-</span></p>
+                        <div class="vehicle-info">
+                            <p>new</p>
+                            <p>2023</p>
+                            <p>Automatic</p>
+                            <p>Petrol</p>
+                            <p>183mph</p>
+                        </div>
+                        <button>Check out</button>
+                    </div>
+
+                    <div class="swiper-slide ">
+                        <img src="img/3.png" alt="carro cinza" width="656" height="360" loading="lazy">
+                        <h3>New model</h3>
+                        <p>Price: <span class="yellow">$62,000/-</span></p>
+                        <div class="vehicle-info">
+                            <p>new</p>
+                            <p>2023</p>
+                            <p>Automatic</p>
+                            <p>Petrol</p>
+                            <p>183mph</p>
+                        </div>
+                        <button>Check out</button>
+                    </div>
+                </div>
+                <div class="swiper-button-next vehicle-navigation"></div>
+                <div class="swiper-button-prev vehicle-navigation"></div>
+                <div class="swiper-pagination vehicle-pagination"></div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2>Nossos <span class="yellow">Serviços</span></h2>
+
+            <div class="services-container">
+                <div class="services-item">
+                    <div><i class="fa-solid fa-car"></i></div>
+                    <p>Compre conosco</p>
+                    <p>Temos os melhores veiculos para seu gosto e bolso</p>
+                    <button>Comprar agora</button>
+                </div>
+
+                <div class="services-item">
+                    <div><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <p>Anucie aqui</p>
+                    <p>Venda seu veiculo através de nosso site mais rádipo e com confiança</p>
+                    <button>Anuciar meu veiculo</button>
+                </div>
+
+                <div class="services-item">
+                    <div><i class="fa-solid fa-headset"></i></div>
+                    <p>24/7 Atendimento</p>
+                    <p>Nossos especialista estão pronto para lhe oferecer um Atendimento 24 horas por dia</p>
+                    <button>Falar com especialista</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="review" id="reviews">
+            <h2>Comentários <span class="yellow">de clientes</span></h2>
+
+            <div class="swiper review-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/pic-1.jpg" alt="homem loiro olhando para o lado e sorrindo" width="193" height="190" loading="lazy">
+                        <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis,
+                            mais bolis eu num gostis.Quem manda na minha terra sou euzis!Interagi no mé, cursus quis,
+                            vehicula ac nisi.Atirei o pau no gatis, per gatis num morreus.</p>
+                        <p>John deo</p>
+                        <div class="estrelas">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="img/pic-2.jpg" alt="mulher loira usando touca de frio e sorrindo" width="193" height="190" loading="lazy">
+                        <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis,
+                            mais bolis eu num gostis.Quem manda na minha terra sou euzis!Interagi no mé, cursus quis,
+                            vehicula ac nisi.Atirei o pau no gatis, per gatis num morreus.</p>
+                        <p>John deo</p>
+                        <div class="estrelas">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="img/pic-3.jpg" alt="homem com rosto serio" width="193" height="190" loading="lazy">
+                        <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis,
+                            mais bolis eu num gostis.Quem manda na minha terra sou euzis!Interagi no mé, cursus quis,
+                            vehicula ac nisi.Atirei o pau no gatis, per gatis num morreus.</p>
+                        <p>John deo</p>
+                        <div class="estrelas">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="img/pic-4.jpg" alt="mulher com cabelo loiro sorrindo" width="193" height="190" loading="lazy">
+                        <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis,
+                            mais bolis eu num gostis.Quem manda na minha terra sou euzis!Interagi no mé, cursus quis,
+                            vehicula ac nisi.Atirei o pau no gatis, per gatis num morreus.</p>
+                        <p>John deo</p>
+                        <div class="estrelas">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="img/pic-5.jpg" alt="homem olhando pra cima e usando óculos de sol" width="193" height="190" loading="lazy">
+                        <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis,
+                            mais bolis eu num gostis.Quem manda na minha terra sou euzis!Interagi no mé, cursus quis,
+                            vehicula ac nisi.Atirei o pau no gatis, per gatis num morreus.</p>
+                        <p>John deo</p>
+                        <div class="estrelas">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="img/pic-6.jpg" alt="mulher olhando para o lado" width="193" height="190" loading="lazy">
+                        <p>Mussum Ipsum, cacilds vidis litro abertis. Interessantiss quisso pudia ce receita de bolis,
+                            mais bolis eu num gostis.Quem manda na minha terra sou euzis!Interagi no mé, cursus quis,
+                            vehicula ac nisi.Atirei o pau no gatis, per gatis num morreus.</p>
+                        <p>John deo</p>
+                        <div class="estrelas">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination review-pagination"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="footer-info">
+            <nav class="footer-container">
+                <h2>Quick links</h2>
+                <a href="index.html" class="footer-item"><i class="fa-solid fa-arrow-right"></i> <span>Home</span></a>
+                <a href="caminhoes.html" class="footer-item"><i class="fa-solid fa-arrow-right"></i><span>Caminhões</span></a>
+                <a href="plataformas.html" class="footer-item"><i class="fa-solid fa-arrow-right"></i> <span>Plataformas</span></a>
+                <a href="#footer" class="footer-item"><i class="fa-solid fa-arrow-right"></i><span>Contato</span></a>
+            </nav>
+
+            <div class="footer-container">
+                <h2>Contato</h2>
+                <address class="footer-item"><i class="fa-solid fa-phone"></i> <span>(11) 97577-0068</span></address>
+                <address class="footer-item"><i class="fa-solid fa-envelope"></i> <span>CELMAGUINCHOS@HOTMAIL.COM</span></address>
+                <p class="footer-item"><i class="fa-solid fa-location-dot"></i> <span>São Paulo-Brasil</span></p>
+            </div>
+
+            <div class="footer-container">
+                <h2>Redes Socias</h2>
+                <address class="footer-item"><a href="#"><i class="fa-brands fa-instagram"></i>
+                        <span>Instagram</span></a></address>
+                <address class="footer-item"><a href="#"><i class="fa-brands fa-linkedin"></i> <span>WhatsApp</span></a>
+                </address>
+                <address class="footer-item"><a href="#"><i class="fa-brands fa-github"></i> <span>Facebook</span></a>
+                </address>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <p>Criado por Daniel Pereira<span><a href="#"> Jr.dev</a></span> | Todos direitos reservados</p>
+        </div>
+
+    </footer>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://wa.me/55(aqui seu numero com ddd | tudo junto)?text=Adorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+    z-index:1000;" target="_blank">
+    <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+    </a>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/37ba8401b1.js" crossorigin="anonymous" async></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
